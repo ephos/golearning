@@ -41,7 +41,7 @@ func main() {
 	whatAmI := func(i interface{}) {
 		//switch then evaluates i.(type) as variable 't' to determine what it is.
 		//.(type) syntax is only used inside a switch, which is why this doesn't require the reflector library.
-		switch t := i.(type) {
+		switch t := i.(type) {49989
 		case bool:
 			fmt.Println("I am a bool.")
 		case int:
